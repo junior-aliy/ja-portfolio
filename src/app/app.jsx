@@ -13,7 +13,7 @@ const App = () => {
   const dispatch = useDispatch()
 
   return (
-    <div className='max-w-[1920px] w-full mx-auto '>
+    <div className='max-w-[1920px] w-full mx-auto'>
         <TopBar />
         <Navbar />
         <main className='relative w-full h-full'>
