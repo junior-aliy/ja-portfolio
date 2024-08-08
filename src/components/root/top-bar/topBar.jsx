@@ -6,7 +6,7 @@ import { CgDarkMode } from 'react-icons/cg'
 
 const TopBar = () => {
   return (
-    <div className='flex p-3 border-b-2'>
+    <div className='container flex p-3 border-b-2'>
         <h3 className="flex-none w-32 border border-sm border-green-600 logo flex items-center text-xl overflow-hidden justify-center relative after:absolute after:left-[47.5%] after:w-full after:h-full after:content-[''] after:bg-green-600 after:z-[-1] after:tranlateX-[-50%] uppercase">Lo<span className='text-white px-1'>go</span></h3>
         <div className='grow'></div>
         <div className='flex-auto w-14 flex items-center justify-end gap-2'>
