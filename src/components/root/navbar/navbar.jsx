@@ -33,7 +33,7 @@ const Navbar = () => {
     }, [location.pathname])
 
   return (
-    <div className={`sticky top-1 relative w-[97.5%] mx-auto my-1 rounded-md bg-white/50 z-10 overflow-hidden`}>
+    <div className={`sticky top-1 relative w-[97.5%] mx-auto my-1 rounded-md bg-white z-10 overflow-hidden shadow-lg`}>
         <ul className='w-[50%] flex items-center justify-start gap-1'>
             {
                 NavbarData.map(({label, path}) => (

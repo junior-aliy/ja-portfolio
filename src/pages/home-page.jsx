@@ -3,7 +3,7 @@ import { HeroSection, MySkills } from '../components/root'
 
 const HomePage = () => {
   return (
-    <div className=''>
+    <div className='py-8'>
       <div className=''>
         <HeroSection />
         <MySkills /> 
